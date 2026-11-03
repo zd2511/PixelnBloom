@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f2ed">
+  <meta name="description" content="Pixel & Bloom — Digital Creative Studio. A little creativity, a lot of possibility.">
+  <title>Pixel &amp; Bloom — Digital Creative Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Italianno&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">A LITTLE CREATIVITY, A LOT OF POSSIBILITY <span>✦</span></div>
+  <header class="site-header">
+    <div class="header-tools">
+      <button class="icon-btn" aria-label="Search" id="searchToggle"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.5"/><path d="m16 16 5 5"/></svg></button>
+      <a class="brand-logo" href="#" aria-label="Pixel &amp; Bloom home"><img src="pixel-and-bloom-logo.png" alt="Pixel &amp; Bloom — Digital Creative Studio"></a>
+      <div class="header-actions">
+        <button class="icon-btn" aria-label="Account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20c.4-4 2.7-6 6.5-6s6.1 2 6.5 6"/></svg></button>
+        <button class="icon-btn" aria-label="Wishlist" id="wishlistTop"><svg viewBox="0 0 24 24"><path d="M20.5 8.8c0 5.1-8.5 10.2-8.5 10.2S3.5 13.9 3.5 8.8A4.4 4.4 0 0 1 12 6.5a4.4 4.4 0 0 1 8.5 2.3Z"/></svg></button>
+        <button class="icon-btn bag-btn" aria-label="Shopping bag" id="cartToggle"><svg viewBox="0 0 24 24"><path d="M5 8h14l1 13H4L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg><b id="cartCount">0</b></button>
+      </div>
+    </div>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#">Home</a><a href="#new">New In</a><a href="#collections">Shop⌄</a><a href="#story">Our Story</a><a href="#journal">Journal</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="search-bar" id="searchBar"><input id="searchInput" type="search" placeholder="Search thoughtful little things…"><button id="searchGo">Search</button></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-sprig sprig-left" src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=450&q=80" alt="">
+      <div class="hero-copy">
+        <p class="eyebrow">F R E S H&nbsp; F I N D S</p>
+        <h1>Just Arrived</h1><span class="short-rule"></span>
+        <p class="hero-sub">Thoughtful pieces for gifting and everyday joy.</p>
+        <a class="button button-wine" href="#new">SHOP NEW</a>
+      </div>
+      <div class="hero-art">
+        <img src="https://images.unsplash.com/photo-1526045478516-99145907023c?auto=format&fit=crop&w=900&q=85" alt="Soft pink flowers and delicate botanical details">
+      </div>
+      <p class="hand-note left-note">Good<br>Things<br>Belong<br>Here <span>♡</span></p>
+      <p class="side-note">PRETTY<br>PEOPLE<br>HAPPIER<br>DAYS<br>♡</p>
+      <div class="hero-leaves">✿</div>
+    </section>
+
+    <section class="collection-tiles" id="collections">
+      <a class="tile tile-photo" href="#new"><img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=500&q=80" alt=""><span>New In <i>→</i></span></a>
+      <a class="tile tile-rose" href="#favorites"><span class="outline-heart">♡</span><span>Most<br>Loved <i>→</i></span></a>
+      <a class="tile tile-sage" href="#offers"><span>Special<br>Offers <i>→</i></span></a>
+      <a class="tile tile-gift" href="#gifts"><img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=500&q=80" alt=""><span>Gift<br>Picks <i>→</i></span></a>
+    </section>
+
+    <section class="products-section" id="new">
+      <div class="section-heading"><span></span><div><h2>Discover What’s New</h2><p>H A N D P I C K E D&nbsp; W I T H&nbsp; L O V E</p></div><span></span></div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-name="Soft Cushion" data-price="28"><button class="heart" aria-label="Add Soft Cushion to wishlist">♡</button><img src="https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=600&q=85" alt="Soft blush decorative cushion"><h3>Soft Cushion</h3><p>$28.00</p><button class="add-btn">ADD TO BAG</button></article>
+        <article class="product-card" data-name="Floral Glass" data-price="34"><button class="heart" aria-label="Add Floral Glass to wishlist">♡</button><img src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=600&q=85" alt="Flowers arranged in a glass vase"><h3>Floral Glass</h3><p>$34.00</p><button class="add-btn">ADD TO BAG</button></article>
+        <article class="product-card" data-name="Pearl Clip" data-price="18"><button class="heart" aria-label="Add Pearl Clip to wishlist">♡</button><img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=600&q=85" alt="Elegant pearl hair accessory"><h3>Pearl Clip</h3><p>$18.00</p><button class="add-btn">ADD TO BAG</button></article>
+        <article class="product-card" data-name="Bloom Bowl" data-price="32"><button class="heart" aria-label="Add Bloom Bowl to wishlist">♡</button><img src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=85" alt="Handmade ceramic bowl"><h3>Bloom Bowl</h3><p>$32.00</p><button class="add-btn">ADD TO BAG</button></article>
+      </div>
+      <button class="button button-sage view-all" id="viewAll">VIEW ALL</button>
+    </section>
+
+    <section class="digital-products" id="digital-products">
+      <div class="section-heading"><span></span><div><h2>Digital Downloads</h2><p>CREATIVE FINDS, READY WHEN YOU ARE</p></div><span></span></div>
+      <p class="digital-intro">Explore our digital products and purchase securely through Payhip.</p>
+      <div class="digital-product-grid">
+        <article class="digital-product-card">
+          <div class="digital-product-art" aria-hidden="true"><span>✦</span><strong>PIXEL<br>&amp; BLOOM</strong><small>DIGITAL DOWNLOAD</small></div>
+          <p class="digital-kicker">A LITTLE SOMETHING LOVELY</p>
+          <h3>Digital Product 01</h3>
+          <p class="digital-description">A digital product from Pixel &amp; Bloom.</p>
+          <a href="https://payhip.com/b/MrBEW" class="payhip-buy-button digital-buy-button" data-theme="none" data-product="MrBEW">Buy Now</a>
+        </article>
+        <article class="digital-product-card">
+          <div class="digital-product-art digital-product-art-alt" aria-hidden="true"><span>❀</span><strong>PIXEL<br>&amp; BLOOM</strong><small>DIGITAL DOWNLOAD</small></div>
+          <p class="digital-kicker">MADE TO INSPIRE</p>
+          <h3>Digital Product 02</h3>
+          <p class="digital-description">A digital product from Pixel &amp; Bloom.</p>
+          <a href="https://payhip.com/b/c1S4R" class="payhip-buy-button digital-buy-button" data-theme="none" data-product="c1S4R">Buy Now</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="newsletter" id="offers">
+      <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=500&q=80" alt="" class="newsletter-flowers">
+      <div><h2>Stay in the Loop</h2><p>New arrivals and private offers.</p><form id="newsletterForm"><input type="email" required placeholder="Email" aria-label="Your email address"><button aria-label="Subscribe">→</button></form><small id="newsletterMessage"></small></div>
+      <p class="hand-note newsletter-note">More<br>Lovely<br>Ahead <span>♡</span></p>
+    </section>
+
+    <section class="story-section" id="story">
+      <div class="story-image"><img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=700&q=85" alt="A gentle arrangement of fresh flowers"></div>
+      <div class="story-copy"><h2>Our Little Story</h2><h3>Curated gifts made for meaningful moments.</h3><p>Pixel &amp; Bloom began with a simple belief — that the little things make life more beautiful. We curate thoughtful gifts, home comforts, and everyday treasures to celebrate the moments that matter.</p><a class="button button-wine" href="#contact">READ MORE</a></div>
+      <p class="side-note story-note">A KINDER<br>BRIGHTER<br>MORE BEAUTIFUL<br>WORLD<br>♡</p>
+    </section>
+
+    <section class="favorites" id="favorites">
+      <div class="section-heading compact"><span></span><h2>Customer Favorites</h2><span></span></div>
+      <div class="favorite-strip">
+        <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=400&q=80" alt="A softly glowing candle">
+        <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?auto=format&fit=crop&w=400&q=80" alt="A stack of books">
+        <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=400&q=80" alt="White flowers">
+        <img src="https://images.unsplash.com/photo-1514228742587-6b1558frok?auto=format&fit=crop&w=400&q=80" alt="A ceramic mug">
+        <img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=400&q=80" alt="A beautifully wrapped gift">
+      </div>
+    </section>
+  </main>
+  <footer id="contact"><a class="footer-logo" href="#" aria-label="Pixel &amp; Bloom home"><img src="pixel-and-bloom-logo.png" alt="Pixel &amp; Bloom — Digital Creative Studio"></a><div class="footer-links"><a href="#collections">Shop</a><a href="#story">Our Story</a><a href="#faq">FAQ</a><a href="mailto:hello@example.com">Contact</a></div><p>© <span id="year"></span> Pixel &amp; Bloom. A little creativity, a lot of possibility.</p></footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag">
+    <div class="drawer-head"><h2>Your Bag</h2><button id="closeCart" aria-label="Close bag">×</button></div>
+    <div id="cartItems" class="cart-items"><p class="empty-cart">Your bag is waiting for something lovely.</p></div>
+    <div class="cart-bottom"><div><span>Subtotal</span><strong id="subtotal">$0.00</strong></div><button class="button button-wine" id="checkout">CONTINUE TO CHECKOUT</button><small>Checkout is a demo — no payment will be taken.</small></div>
+  </aside>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="https://payhip.com/payhip.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
